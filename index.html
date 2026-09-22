@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pesquisa</title>
 </head>
 <body>
     
+    <h1>Pesquisa de Usuário</h1>
+
+    <form action="" method="get">
+
+        <fieldset>
+            <label for="nomeUsuarioId">Nome do usuário:</label>
+            <input 
+                type="text"
+                name="nomeUsuario" 
+                id="nomeUsuarioId" required>
+            <br>
+            <label for="idadeUsuarioId">Idade do usuário:</label>
+            <input 
+                type="number" 
+                name="idadeUsuario" 
+                id="idadeUsuarioId"
+                min="12" max="100">
+            <br>
+            <label for="dtNascimentoId">Data de nascimento:</label>
+            <input type="date" name="dtNascimento" id="dtNascimentoId">
+            <br>
+            <label for="emailUsuarioId">Email:</label>
+            <input 
+            type="email" 
+            name="emailUsuario" 
+            id="emailUsuarioId" required>
+            <br>
+            <label for="foneUsuarioId">Telefone:</label>
+            <input type="tel" name="foneUsuario" id="foneUsuarioId">
+            <br>
+            <label for="fotoUsuarioId">Foto do Cliente:</label>
+            <input type="file" name="fotoUsuario" id="fotoUsuarioId" accept="application/pdf">
+
+
+        </fieldset>
+        
+
+        <button type="submit">Enviar dados</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
 </body>
 </html>
