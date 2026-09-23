@@ -12,6 +12,7 @@
     <form action="" method="get">
 
         <fieldset>
+            <legend>Dados Pessoais</legend>
             <label for="nomeUsuarioId">Nome do usuário:</label>
             <input 
                 type="text"
@@ -39,15 +40,67 @@
             <br>
             <label for="fotoUsuarioId">Foto do Cliente:</label>
             <input type="file" name="fotoUsuario" id="fotoUsuarioId" accept="application/pdf">
+            <br>
+        </fieldset>
 
-
+        <fieldset>
+            <legend>Perfil</legend>
+            <p>Escolha seu gênero</p>
+            <input type="radio" name="radioPerfil" id="radioPerfilFemininoId" value="f">
+            <label for="radioPerfilFemininoId">Feminino</label>
+            <input type="radio" name="radioPerfil" id="radioPerfilMasculinoId" value="M">
+            <label for="radioPerfilMasculinoId">Masculino</label>
+            <input type="radio" name="radioPerfil" id="radioPerfilNaoId" value="n">
+            <label for="radioPrefiroNaoId">Prefiro não responder</label>
+            <br>
+            <label for="estadoCivilId">Estado civil ?</label>
+            <select name="estadoCivil" id="estadoCivilId">
+                <option value="casado">Casado(a)</option>
+                <option value="solteiro">Solteiro(a)</option>
+                <option value="viuvo">Viúvo(a)</option>
+                <option value="divorciado">Divorciado(a)</option>
+                <option value="uniao">União Estável(a)</option>
+            </select>
         </fieldset>
         
 
-        <button type="submit">Enviar dados</button>
-        <button type="reset">Limpar</button>
-
-    </form>
-
-</body>
-</html>
+        <fieldset>
+            <legend>Estado:</legend>
+            <select name="estadoId" id="">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </fieldset>
+            
+            <button type="submit">Enviar dados</button>
+            <button type="reset">Limpar</button>
+            
+        </form>
+        
+    </body>
+    </html>
