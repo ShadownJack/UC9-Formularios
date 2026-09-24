@@ -11,7 +11,7 @@
 }
  
 body {
-    background-color: #F9F9F9;
+    background-color: #a7a4a4b2;
     font-family: 'Work Sans', sans-serif;
 }
  
@@ -23,9 +23,37 @@ body {
  
 h1{
       font-family: 'Fjalla One', sans-serif;
+      margin: 2rem auto;
+      text-align: center;
 }
 
 form{
     background-color: #fff;
-    padding: 1.5rem;   
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem #c0bfbf;   
+}
+
+fieldset{
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+}
+
+legend{
+    font-weight: 600;
+    padding: 0 0.5rem;
+}
+
+label{
+    margin-bottom: 0.3rem;
+    display: inline-block;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    border-radius: 0.24;
 }
