@@ -1,1 +1,31 @@
 /* Arquivo css principal */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+ 
+* {
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body {
+    background-color: #F9F9F9;
+    font-family: 'Work Sans', sans-serif;
+}
+ 
+.principal{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+ 
+h1{
+      font-family: 'Fjalla One', sans-serif;
+}
+
+form{
+    background-color: #fff;
+    padding: 1.5rem;   
+}
